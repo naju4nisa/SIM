@@ -214,7 +214,7 @@ hr {
 	background: linear-gradient(to bottom, rgba(63,105,115,1) 0%, rgba(47,95,107,1) 41%, rgba(19,54,64,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f6973', endColorstr='#133640', GradientType=0 );
 	color: white;
-	margin-right: 30px;
+	margin-right: 5px;
 }
 .btn-blue-gradient:hover { color: #B8E6F0; }
 .btn-transparent {
