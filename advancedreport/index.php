@@ -228,7 +228,7 @@ if (isset($_POST['submit']))
                                    
 					<div class="panel-body easypiechart-panel">
                                              <p style="font-size:12px; text-align: center">Expense Per User</p>
-						<div class="easypiechart" id="easypiechart-violet" data-percent="<?php echo round($total);?>" ><span class="percent"><?php echo round($total);?>%</span></div>
+						<div class="easypiechart" id="easypiechart-violet" data-percent="<?php echo round($exp);?>" ><span class="percent"><?php echo round($exp);?>%</span></div>
 					</div>
 				</div>
 			</div>
@@ -239,7 +239,7 @@ if (isset($_POST['submit']))
 					
 					<div class="panel-body easypiechart-panel">
                                             <p style="font-size:12px; text-align: center">Cash Flow to Community</p>
-						<div class="easypiechart" id="easypiechart-navy" data-percent="<?php echo round($total);?>" ><span class="percent"><?php echo round($total);?>%</span></div>
+						<div class="easypiechart" id="easypiechart-navy" data-percent="<?php echo round($cfp);?>" ><span class="percent"><?php echo round($cfp);?>%</span></div>
 					</div>
 				</div>
 			</div>
